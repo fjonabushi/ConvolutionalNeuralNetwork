@@ -25,13 +25,8 @@ This project was submitted as my **Master's thesis at Epoka University** and exp
 
 ---
 
-## 📊 Results
-Achieved high accuracy on all three datasets in classifying healthy vs. unhealthy cells. Detailed metrics and visual results will be updated in the `results/` folder for transparency.
-
----
-
 ## ⚠️ Note
-This repository currently contains **only the source code**. Due to size and licensing constraints, **datasets are not included**.
+This repository currently contains **only the source code and final submited thesis**. Due to size and licensing constraints, **datasets are not included**.
 
 ---
 
@@ -72,15 +67,8 @@ ConvolutionalNeuralNetwork/
 
 ---
 
-## 📌 To Do
-- [ ] Upload detailed result analysis and plots.
-- [ ] Add model evaluation scripts.
-- [ ] (Optional) Prepare a Streamlit demo for visualization.
-
----
-
 ## 👩‍💻 Author
-**Fjona Hajdari**  
+**Fjona Bushi**  
 [LinkedIn](https://www.linkedin.com/in/fjona-h-84213a190) | [Email](mailto:fiona725f@gmail.com)
 
 ---
