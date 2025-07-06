@@ -1,11 +1,88 @@
-# ConvolutionalNeuralNetwork
-# Fjona Hajdari
+# Cell Image Classification Using Convolutional Neural Networks
 
-Cell Image Processing Using Convolutional Neural Network. 
-This Project was submitted as a Master's Diploma thesis at Epoka University by Fjona Bushi Hajdari. 
-The convolutional Network used is a variation of the LeNet network. 
-The research was based on three datasets of 9332, 20102 and 12520 images which were trained and tested separately. 
-The purpose of the research was to succesfully predict healthy/unhealthy cell images. 
-The preprocessing methods used are unsharped masking, median filter and highpass filter. 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red) ![Status](https://img.shields.io/badge/Status-Research_Thesis-yellow)
 
-Please note that his project lacks the dataset and only has the source code avaliable for now. 
+This project was submitted as my **Master's thesis at Epoka University** and explores **deep learning methods for classifying healthy vs. unhealthy cell images** using a modified **LeNet architecture**.
+
+---
+
+## 🩺 Project Overview
+- **Objective:** Predict healthy vs. unhealthy cell images using Convolutional Neural Networks.
+- **Datasets:** Three datasets containing **9,332, 20,102, and 12,520 images** were used, trained and evaluated separately.
+- **Preprocessing Methods:**
+  - Unsharp masking
+  - Median filtering
+  - High-pass filtering
+- **Architecture:** Modified LeNet CNN for grayscale and color cell images.
+
+---
+
+## 🚀 Features
+✅ Modified LeNet CNN architecture with additional layers for stability and accuracy.  
+✅ Preprocessing pipeline for medical image preparation.  
+✅ Modular, clean code with comments for reproducibility.  
+✅ Configurable training and testing pipeline for different datasets.
+
+---
+
+## 📊 Results
+Achieved high accuracy on all three datasets in classifying healthy vs. unhealthy cells. Detailed metrics and visual results will be updated in the `results/` folder for transparency.
+
+---
+
+## ⚠️ Note
+This repository currently contains **only the source code**. Due to size and licensing constraints, **datasets are not included**.
+
+---
+
+## 🛠️ Installation & Usage
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/fjonabushi/ConvolutionalNeuralNetwork.git
+cd ConvolutionalNeuralNetwork
+```
+
+2️⃣ Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3️⃣ Run training:
+```bash
+python train.py
+```
+
+
+---
+
+## 📁 Repository Structure
+```
+ConvolutionalNeuralNetwork/
+│
+├── data/               # Data preprocessing
+├── models/             # Saved model checkpoints
+├── src/                # Core training and model files
+│   ├── model.py
+│   ├── dataset.py
+│   └── train.py
+├── requirements.txt    # Dependencies
+└── README.md           # Project documentation
+```
+
+---
+
+## 📌 To Do
+- [ ] Upload detailed result analysis and plots.
+- [ ] Add model evaluation scripts.
+- [ ] (Optional) Prepare a Streamlit demo for visualization.
+
+---
+
+## 👩‍💻 Author
+**Fjona Hajdari**  
+[LinkedIn](https://www.linkedin.com/in/fjona-h-84213a190) | [Email](mailto:fiona725f@gmail.com)
+
+---
+
+*Always exploring and building with curiosity.*
